@@ -1,0 +1,29 @@
+.body{
+    background-color: rgba(60, 134, 199, .25);
+    padding:1rem;
+    min-height: 100vh;
+    min-width: min-content;
+}
+.container{
+    background-color: white;
+    height: auto;
+    padding:2rem;
+}
+section{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    
+}
+
+@media only screen 
+   and (max-width : 900px) {
+   section{
+       flex-direction: column;
+       margin-top: 0;
+   }
+
+.container{
+    height: auto;
+}
+}
